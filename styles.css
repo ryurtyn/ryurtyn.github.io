@@ -1,14 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif; /* Use Inter font or fallback to Arial and sans-serif */
     margin: 0;
     padding: 0;
     background-color: #f3ecd8; /* Muted beige background */
   }
   
   header {
+    font-family: 'Inter', Arial, sans-serif;
     background-color: #f2e6c9; /* Muted khaki for header */
     padding: 20px;
     text-align: center;
+  }
+
+  h1 {
+    font-family: 'Inter', Arial, sans-serif; /* Set Inter font for H1 headers */
+    font-weight: normal; 
+  }
+
+  h2 {
+    font-family: 'Inter', Arial, sans-serif; /* Set Inter font for H2 headers */
+    font-weight: normal; 
   }
   
   nav a {
@@ -89,7 +100,7 @@ body {
   }
   
   .about-me-content {
-    background-color: #e0e0e0;
+    background-color: #f9c2e2;
     width: calc(3 * 200px + 2 * 30px); /* 3 columns of projects with 2 gaps in between */
     padding: 20px;
     border-radius: 10px;
