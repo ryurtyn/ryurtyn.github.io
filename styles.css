@@ -2,18 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f3ecd8; /* Muted beige background */
   }
   
   header {
-    background-color: #f0f0f0;
+    background-color: #f2e6c9; /* Muted khaki for header */
     padding: 20px;
     text-align: center;
-    margin-bottom: 20px; /* Added margin to match project square spacing */
   }
   
   nav a {
     margin: 0 10px;
     text-decoration: none;
+    color: #6b5844; /* Dark brown color for links */
   }
   
   nav a:hover {
@@ -22,15 +23,14 @@ body {
   
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 200px); /* Set fixed width for each project */
-    grid-template-rows: repeat(5, 200px); /* Updated to 5 rows */
-    gap: 30px; /* Increased gap between squares */
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(5, 200px);
+    gap: 30px;
     padding: 20px;
-    justify-content: center; /* Center the grid horizontally */
+    justify-content: center;
   }
   
   .project {
-    background-color: #e0e0e0;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
@@ -39,11 +39,12 @@ body {
   }
   
   .project:hover {
-    background-color: #f0f0f0;
+    background-color: #f3ebcd; /* Slightly brighter beige on hover */
   }
   
   .project h2 {
     margin: 10px 0;
+    color: #6b5844; /* Dark brown color for project titles */
   }
   
   .project p {
@@ -51,10 +52,34 @@ body {
     height: 0;
     overflow: hidden;
     transition: height 0.3s;
+    color: #7d6b4d; /* Slightly darker brown for project descriptions */
   }
   
   .project:hover p {
     height: auto;
+  }
+  
+  /* Colors for pops of color */
+  .project:nth-child(odd) {
+    background-color: #f9c2e2; /* Muted peach for pastel effect */
+  }
+  
+  .project:nth-child(3n+1) {
+    background-color: #b7cef6; /* Muted moccasin for pastel effect */
+  }
+  
+  .project:nth-child(3n+2) {
+    background-color: #c1e09f; /* Muted light green for pastel effect */
+  }
+  
+  .project:nth-child(even) {
+    background-color: #d1c1d3; /* Muted thistle for pastel effect */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2e6c9; /* Muted khaki for footer */
   }
   
   .about-me {
@@ -80,15 +105,4 @@ body {
     margin: 0;
   }
   
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-  }
-
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-  }
-  
+ 
