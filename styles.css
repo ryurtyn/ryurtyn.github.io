@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Added margin to match project square spacing */
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px); /* Set fixed width for each project */
+    grid-template-rows: repeat(5, 200px); /* Updated to 5 rows */
+    gap: 30px; /* Increased gap between squares */
+    padding: 20px;
+    justify-content: center; /* Center the grid horizontally */
+  }
+  
+  .project {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    overflow: hidden;
+  }
+  
+  .project:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .project h2 {
+    margin: 10px 0;
+  }
+  
+  .project p {
+    padding: 0 10px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+  }
+  
+  .project:hover p {
+    height: auto;
+  }
+  
+  .about-me {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .about-me-content {
+    background-color: #e0e0e0;
+    width: calc(3 * 200px + 2 * 30px); /* 3 columns of projects with 2 gaps in between */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .about-me-content p {
+    margin: 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
