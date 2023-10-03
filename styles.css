@@ -1,119 +1,121 @@
+* {
+  /* font-size: 100%; */
+  font-family: 'Inter', Arial, sans-serif; /* Use Inter font or fallback to Arial and sans-serif */
+  font-weight: 400;
+  /* margin: 30px; */
+}
+
 body {
-    font-family: 'Inter', Arial, sans-serif; /* Use Inter font or fallback to Arial and sans-serif */
-    margin: 0;
-    padding: 0;
-    background-color: #f3ecd8; /* Muted beige background */
-  }
-  
-  header {
-    font-family: 'Inter', Arial, sans-serif;
-    background-color: #f2e6c9; /* Muted khaki for header */
-    padding: 20px;
-    text-align: center;
-  }
+  font-family: 'Inter', Arial, sans-serif; /* Use Inter font or fallback to Arial and sans-serif */
+  margin: 0;
+  padding: 0;
+  /* background-color: #F5F5F5;  */
+  background-color:  #FDFCFD;
+  /* background-color: #ffffff; Light grayish-white background */
+}
 
-  h1 {
-    font-family: 'Inter', Arial, sans-serif; /* Set Inter font for H1 headers */
-    font-weight: normal; 
-  }
+header {
+  background-color: #E0E0E0; /* Light gray for header */
+  padding: 20px;
+  text-align: center;
+  color: rgb(100, 1, 1);
+}
 
-  h2 {
-    font-family: 'Inter', Arial, sans-serif; /* Set Inter font for H2 headers */
-    font-weight: normal; 
-  }
-  
-  nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #6b5844; /* Dark brown color for links */
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(5, 200px);
-    gap: 30px;
-    padding: 20px;
-    justify-content: center;
-  }
-  
-  .project {
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    overflow: hidden;
-  }
-  
-  .project:hover {
-    background-color: #f3ebcd; /* Slightly brighter beige on hover */
-  }
-  
-  .project h2 {
-    margin: 10px 0;
-    color: #6b5844; /* Dark brown color for project titles */
-  }
-  
-  .project p {
-    padding: 0 10px;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s;
-    color: #7d6b4d; /* Slightly darker brown for project descriptions */
-  }
-  
-  .project:hover p {
-    height: auto;
-  }
-  
-  /* Colors for pops of color */
-  .project:nth-child(odd) {
-    background-color: #f9c2e2; /* Muted peach for pastel effect */
-  }
-  
-  .project:nth-child(3n+1) {
-    background-color: #b7cef6; /* Muted moccasin for pastel effect */
-  }
-  
-  .project:nth-child(3n+2) {
-    background-color: #c1e09f; /* Muted light green for pastel effect */
-  }
-  
-  .project:nth-child(even) {
-    background-color: #d1c1d3; /* Muted thistle for pastel effect */
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f2e6c9; /* Muted khaki for footer */
-  }
-  
-  .about-me {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .about-me-content {
-    background-color: #f9c2e2;
-    width: calc(3 * 200px + 2 * 30px); /* 3 columns of projects with 2 gaps in between */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about-me-content h2 {
-    margin-bottom: 10px;
-  }
-  
-  .about-me-content p {
-    margin: 0;
-  }
+h2 {
+  color: rgb(100, 1, 1);
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: maroon; /* Dark green color for links */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(5, 200px);
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.project {
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  overflow: hidden;
+  background-color: #E0E0E0;
+}
+
+.project:hover {
+  background-color: #D5D5D5; /* Light gray on hover */
+}
+
+.project h2 {
+  margin: 10px 0;
+  color: #333333; /* Dark gray color for project titles */
+}
+
+.project p {
+  padding: 0 10px;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s;
+  color: #555555; /* Slightly darker gray for project descriptions */
+}
+
+.project:hover p {
+  height: auto;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #E0E0E0; /* Light gray for footer */
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-me-content {
+  flex: 1;
+  text-align: left;
+  /* background-color: #f4e1d2; */
+  /* background-color: #F5F5F5; */
+  background-color: #f1f1f1; 
+  /* background-color: #E0E0E0; Light gray for about me content */
+  width: calc(75% - 20px); /* Adjust the width as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-photo {
+  max-width: 20%; /* Adjust the size of the photo */
+  margin-left: 20px; /* Create a gap between the about-me content and the photo */
+}
+
+.about-me-photo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.about-me-content h2 {
+  margin-bottom: 10px;
+}
+
+.about-me-content p {
+  margin: 0;
+}
   
  
