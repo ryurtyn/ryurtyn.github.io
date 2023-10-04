@@ -2,39 +2,41 @@
   /* font-size: 100%; */
   font-family: 'Inter', Arial, sans-serif; /* Use Inter font or fallback to Arial and sans-serif */
   font-weight: 400;
-  /* margin: 30px; */
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-body {
-  font-family: 'Inter', Arial, sans-serif; /* Use Inter font or fallback to Arial and sans-serif */
-  margin: 0;
-  padding: 0;
-  /* background-color: #F5F5F5;  */
-  background-color:  #FDFCFD;
-  /* background-color: #ffffff; Light grayish-white background */
+*.padded {
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 0.25in;
+  padding-left: 100px;
 }
 
 header {
-  background-color: #E0E0E0; /* Light gray for header */
   padding: 20px;
   text-align: center;
-  color: rgb(100, 1, 1);
+  /* color: rgb(100, 1, 1); */
 }
 
-h2 {
-  color: rgb(100, 1, 1);
+p {
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 300;
 }
 
+/*nav bar styling */
 nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: maroon; /* Dark green color for links */
+  color: rgb(100, 1, 1);
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+/*projects styling */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 200px);
@@ -75,47 +77,34 @@ nav a:hover {
 }
 
 
-footer {
+/* about me styling */
+.container {
+  display: flex;
+}
+
+.text {
+  flex: 3; /* Equal width for both elements */
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.image {
+  flex: 1; /* Adjust flex value to control image width */
+  display: flex;
+  align-items: center; /* Vertically center the image */
+}
+
+.image img{
+  max-width: 100%; /* Limit the image size to its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space under the image */
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+footer p {
   text-align: center;
   padding: 10px;
-  background-color: #E0E0E0; /* Light gray for footer */
 }
-
-.about-me {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.about-me-content {
-  flex: 1;
-  text-align: left;
-  /* background-color: #f4e1d2; */
-  /* background-color: #F5F5F5; */
-  background-color: #f1f1f1; 
-  /* background-color: #E0E0E0; Light gray for about me content */
-  width: calc(75% - 20px); /* Adjust the width as needed */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.about-me-photo {
-  max-width: 20%; /* Adjust the size of the photo */
-  margin-left: 20px; /* Create a gap between the about-me content and the photo */
-}
-
-.about-me-photo img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.about-me-content h2 {
-  margin-bottom: 10px;
-}
-
-.about-me-content p {
-  margin: 0;
-}
-  
- 
