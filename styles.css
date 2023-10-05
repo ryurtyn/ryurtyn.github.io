@@ -39,37 +39,108 @@ nav a:hover {
 /*projects styling */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(5, 200px);
   grid-template-rows: repeat(5, 200px);
   gap: 30px;
   padding: 20px;
   justify-content: center;
 }
 
-.project {
-  border-radius: 10px;
+.project a {
+  text-decoration: none;
+}
+
+
+.project-card {
+  border-radius: 0px;
+  margin: 0px;
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s;
   overflow: hidden;
-  background-color: #E0E0E0;
+  position: relative;
 }
 
+.project-image {
+  width: 100%;
+  position: absolute;
+}
+
+.project {
+  border-radius: 0px;
+  margin: 0px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  overflow: hidden;
+  /* background-color: #E0E0E0; */
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.project::before {
+  content: '';
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  /* background-color: #0d0d0d63; Light gray on hover */
+  /* background-color: rgba(0, 0, 0, 0.5); Adjust the opacity (0.5 for 50% opacity) */
+}
+
+.project:nth-child(1)::before {
+  background-image: url('images/neural-keypoints.png');
+}
+
+.project:nth-child(2)::before {
+  background-image: url('images/face-morphing.jpeg');
+}
+
+.project:nth-child(3)::before {
+  background-image: url('images/cloth-sim.png');
+}
+
+.project:nth-child(4)::before {
+  background-image: url('images/path-tracer.png');
+}
+
+.project:nth-child(5)::before {
+  background-image: url('images/mesh-edit.png');
+}
+
+.project:nth-child(6)::before {
+  background-image: url('images/rasterizer.png');
+}
+
+.project:nth-child(7)::before {
+  background-image: url('images/colorize-images.jpeg');
+}
+
+
+
 .project:hover {
-  background-color: #D5D5D5; /* Light gray on hover */
+  background-color: #ffffff; /* Light gray on hover */
 }
 
 .project h2 {
+  position: relative;
   margin: 10px 0;
-  color: #333333; /* Dark gray color for project titles */
+  color: #000000; /* Dark gray color for project titles */
 }
 
 .project p {
-  padding: 0 10px;
+  /* padding: 0 10px; */
+  position: relative;
   height: 0;
   overflow: hidden;
+  text-align: center;
   transition: height 0.3s;
-  color: #555555; /* Slightly darker gray for project descriptions */
+  color: #000000; /* Slightly darker gray for project descriptions */
+
 }
 
 .project:hover p {
