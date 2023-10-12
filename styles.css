@@ -25,6 +25,17 @@ p {
   font-weight: 300;
 }
 
+a {
+  margin-left: 0px;
+  margin-right: 0px;
+  color:rgb(100, 1, 1);
+}
+
+li {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 /*nav bar styling */
 nav a {
   margin: 0 10px;
@@ -178,4 +189,113 @@ nav a:hover {
 footer p {
   text-align: center;
   padding: 10px;
+}
+
+/*interests styling */
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(5, 200px);
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.interest a {
+  text-decoration: none;
+}
+
+
+.interest-card {
+  border-radius: 0px;
+  margin: 0px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.interest-image {
+  width: 100%;
+  position: absolute;
+}
+
+.interest {
+  border-radius: 0px;
+  margin: 0px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  overflow: hidden;
+  /* background-color: #E0E0E0; */
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.interest::before {
+  content: '';
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  /* background-color: #0d0d0d63; Light gray on hover */
+  /* background-color: rgba(0, 0, 0, 0.5); Adjust the opacity (0.5 for 50% opacity) */
+}
+
+.interest:nth-child(1)::before {
+  background-image: url('images/neural-keypoints.png');
+}
+
+.interest:nth-child(2)::before {
+  background-image: url('images/face-morphing.jpeg');
+}
+
+.interest:nth-child(3)::before {
+  background-image: url('images/cloth-sim.png');
+}
+
+.interest:nth-child(4)::before {
+  background-image: url('images/path-tracer.png');
+}
+
+.interest:nth-child(5)::before {
+  background-image: url('images/mesh-edit.png');
+}
+
+.interest:nth-child(6)::before {
+  background-image: url('images/rasterizer.png');
+}
+
+.interest:nth-child(7)::before {
+  background-image: url('images/colorize-images.jpeg');
+}
+
+.interest:hover {
+  background-color: #ffffff; /* Light gray on hover */
+}
+
+.interest h2 {
+  position: relative;
+  margin: 10px 0;
+  color: #000000; /* Dark gray color for project titles */
+}
+
+.interest p {
+  /* padding: 0 10px; */
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  text-align: center;
+  transition: height 0.3s;
+  color: #000000; /* Slightly darker gray for project descriptions */
+
+}
+
+.interest:hover p {
+  height: auto;
 }
