@@ -1,20 +1,34 @@
       <p>
-        Hey there! My name is Ruslana, and I'm a dedicated and accomplished Computer Scientist currently pursuing my Master of 
-        Engineering in Computer Science at Cornell Tech. I graduated with a Bachelor Degree in Computer Science and a minor in Data Science 
-        from UC Bereley in 2023. Throughout my academic journey, I've focused on honing my technical skills specializing in Machine Learning,
-        Computer Vision, Computer Graphics, and Natural Language Processing.
+        Hey, I'm Ruslana! I've recently completed my Masters of Engineering in Computer Science at Cornell Tech. Prior to that, I graduated 
+        from UC Berkeley in 2023 with a Bachelor's in Computer Science and a minor in Data Science (Berkeley AND Cornell? I'm really 
+        collecting the bear mascots).
       </p>
       <p>
-        My professional journey has seen me excel in internships at Amazon and the National Geospatial-Intelligence Agency, where I 
-        devised and implemented automation tools and machine learning models, showcasing my adeptness in problem-solving. Beyond 
-        practical experience, I have had the privilege of imparting knowledge as a Teaching Assistant and leading as the President of 
-        the Association of Women in EE&CS at UC Berkeley.
+        At Cornell Tech, I had an incredible experience working on various advanced tech projects. I was the runner-up for the Startup Award
+        with my startup, mercuryVote. I also delved into NLP research with Sasha Rush, focusing on using LLMs to extract information from 
+        large legal documents. Additionally, I explored computer vision and AI to extract procedural information from egocentric task-based
+         videos at the XR Collaboratory. My coursework included a strong focus on Machine Learning, Computer Graphics, and Computer Vision.
       </p>
       <p>
-        Delving into projects and research, I've had the opportunity to work on cutting-edge initiatives such as Zoning Codes and LLMs
-         and Automatic Facial Keypoint Detection, utilizing technologies like Python and OpenAI API. Balancing my technological prowess, 
-         I cherish diverse hobbies such as ballet, contemporary dance, knitting, crocheting, puzzles, and indulging in fantasy novels. 
-         This blend of technology and creativity propels me forward, and I am eager to contribute my multifaceted skills to the dynamic
-         world of Computer Science and beyond.
+        During my time at UC Berkeley, I had the privilege of being a TA for the largest undergraduate course (1,500+ students!). I also served 
+        as the President of the Association of Women in EE&CS and championed diversity and inclusion as the DE&I Chair for Computer Science Mentors.
       </p>
+      <p>
+      Beyond my academic pursuits, I've had some awesome internships at Amazon and the National Geospatial-Intelligence Agency, where I worked 
+      on projects involving automation tools and machine learning.
+      </p>
+      <p>
+      Now, I'm getting ready to start a full-time position where I can continue to learn and apply my skills. When I'm not working on tech projects, 
+      you can find me sitting in a park reading a good fantasy novel, exploring the best food in NYC (check out my Beli page), and crafting 
+      (I like to knit and crochet).
+      </p> 
       
+
+      
+
+
+
+
+
+
+
