@@ -1,0 +1,80 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.ori
+*.original
+*.backup
+*.old
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# General excludes
+dist/
+build/
+tmp/
+temp/
+
+# Generated files
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.pyc
+*.pyo
+*.pyd
+
+# Backup files
+*.bak
+*.orig
+*.save
+*.swo
+*.swp
+*.swn
+*.slog
+
+# Directories
+**/target/
+**/out/
+**/build/
+**/.env/
+
+# Exclude archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
